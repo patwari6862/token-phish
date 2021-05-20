@@ -5,7 +5,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 app = Client('bot')
-log = -1001494741712
+log = -1001472587237
 
 
 @app.on_message(~filters.me & filters.text)
